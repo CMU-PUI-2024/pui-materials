@@ -197,7 +197,7 @@ Now, let's add new categories to the list! We'll create a button to add a catego
 14. To determine whether to display the input field or not, create a state variable `isAddingNew` using the `useState` hook. Also, the value of the input field should be tracked. Create another variable `newCategory` using the `useState` hook. 
 
 ```
-const [isAddingNew, setAddingNew] useState(false);
+const [isAddingNew, setAddingNew] = useState(false);
 const [newCategory, setNewCategory] = useState("");
 ```
 
